@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(133, 133, 191);;
+}
+
+
+.header{
+    position:fixed;
+    top:0;
+    left:100;
+    width:100%;
+    padding:30px 100px;
+    background:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:100;
+}
+.navbar a{
+    font-size:18px;
+    color:#222;
+    text-decoration: none;
+    font-weight:500;
+    margin:0 20px;
+    transition:.3s;
+    
+}
+.navbar a:hover{
+    color:blue;
+}
+.social-media{
+    display:flex;
+    justify-content: space-between;
+    width:150px;
+    height: 40px;
+
+}
+.social-media a{
+    display:inline-flex;
+    width:40px;
+    height:40px;
+    background:transparent;
+    border:2px solid transparent;
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+.social-media a:hover{
+    border-color:black;
+}
+.social-media a i{
+font-size:24px;
+color:black;
+transform: rotate(-45deg);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

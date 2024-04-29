@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Maintenance Record System</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="record.css">
+</head>
+<body>
+    <header class="header">
+    
+
+        <nav class="navbar">
+            <a href="new vehicle.html" >HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="record.html" >RECORD</a>
+           
+            <a href="contact us.html" >CONTACT US</a>
+        </nav>
+
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a> 
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <br>
+            <br>
+            <h2>Add New Maintenance Record</h2>
+            <form action="submit_record.php" method="post">
+                <label for="vehicle">Vehicle:</label>
+                <input type="text" id="vehicle" name="vehicle" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section>
+            <h2>Maintenance Records</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Vehicle</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Records will be populated dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+</body>
+</html>
